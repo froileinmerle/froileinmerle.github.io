@@ -1,0 +1,836 @@
+{
+  "settings": {
+    "name": "MOVU",
+    "currentPage": "Professionelle Fensterreinigung",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#00b778",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Source Sans Pro",
+        "textFont": "Roboto",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      }
+    },
+    "favicon": "@PROJECT_PATH@/assets/images/favicon-128x128.png",
+    "noImageResize": "",
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 69,
+    "versionPublish": "3.12.1"
+  },
+  "pages": {
+    "Window_Cleaning_offer": {
+      "settings": {
+        "title": "Web Page Builder Title",
+        "meta_descr": "Web Page Builder Description"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#5b5b5b",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/movu-logo-new-2b2aa05b41859269f4d2055e40996c87.svg",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "",
+          "text2": "<strong>Kontakt</strong><br><strong><br></strong><br>MOVU AG<br><br><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Universitätsstrasse 63</span><br><span style=\"font-size: 0.875rem; line-height: 1.5;\"><br></span><br>8006 Zürich",
+          "text3": "<strong>Links</strong><br><a href=\"https://www.movu.ch/de/\" target=\"_blank\" class=\"text-white\">MOVU.ch</a><br><a href=\"https://www.movu.ch/ratgeber/\" target=\"_blank\" class=\"text-white\">Umzugsratgeber</a><br><br>",
+          "_customCSS": "STRONG {\n\tcolor: #ffffff;\n}\n",
+          "_customHTML": "<section class=\"mbr-section mbr-section-md-padding mbr-footer footer1\" style=\"background-color: rgb(91, 91, 91); padding-top: 90px; padding-bottom: 90px;\">\n    \n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"mbr-footer-content col-xs-10 col-md-3\">\n                <p class=\"mbr-editable-content\" code-editable-id=\"105\"><strong>Kontakt</strong><br>MOVU AG<br><span style=\"font-size: 0.875rem; line-height: 0;\">Universitätsstrasse 63</span><br>8006 Zürich</p>\n            </div>\n            <div class=\"mbr-footer-content col-xs-12 col-md-3\">\n                <p class=\"mbr-editable-content\" code-editable-id=\"106\"><strong>Links</strong><br><a href=\"https://www.movu.ch/de/\" target=\"_blank\" class=\"text-white\">MOVU.ch</a><br><a href=\"https://www.movu.ch/ratgeber/\" target=\"_blank\" class=\"text-white\">Umzugsratgeber</a><br><br></p>\n            </div>\n            \n            <div><a class=\"btn btn-social mbr-editable-button\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/Movu_CH\" code-editable-id=\"107\"><i class=\"socicon socicon-twitter\"></i></a> <a class=\"btn btn-social mbr-editable-button\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/movu.ch/\" code-editable-id=\"108\"><i class=\"socicon socicon-facebook\"></i></a> <a class=\"btn btn-social mbr-editable-button\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/+MovuAGZ%C3%BCrich\" code-editable-id=\"109\"><i class=\"socicon socicon-googleplus\"></i></a> <a class=\"btn btn-social mbr-editable-button\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\" code-editable-id=\"110\"><i class=\"socicon socicon-youtube\"></i></a> </div></div></div></section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customTemplate": true,
+          "_anchor": "contacts1-12"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#00b778!important"
+            },
+            ".innerEmail:hover, .innerPhone:hover": {
+              "color": "@primaryColor"
+            }
+          },
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extMenu1",
+          "_anchor": "extMenu1-13",
+          "_params": {
+            "bgColor": "#3d8eb9",
+            "socialButtons": "1",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": false,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "fa",
+              "link": "https://mobirise.com",
+              "name": "phone",
+              "size": 0,
+              "color": "#ffffff",
+              "family": "FontAwesome"
+            }
+          },
+          "phone": "+1234567890",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "name": "mail",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ffffff",
+              "family": "linecons"
+            }
+          },
+          "email": "",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "",
+              "name": "facebook",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ffffff",
+              "family": "socicon"
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "",
+              "name": "twitter",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ffffff",
+              "family": "socicon"
+            }
+          },
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "",
+              "name": "instagram",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ffffff",
+              "family": "socicon"
+            }
+          },
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "",
+              "name": "behance",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ffffff",
+              "family": "socicon"
+            }
+          },
+          "media7": {
+            "iconFont": {
+              "active": true,
+              "class": "",
+              "name": "pinterest",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ffffff",
+              "family": "socicon"
+            }
+          },
+          "media8": {
+            "iconFont": {
+              "active": true,
+              "class": "",
+              "name": "skype",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ffffff",
+              "family": "socicon"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/mbr-logo-sand.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extFooter1",
+          "_anchor": "extFooter1-14",
+          "_params": {
+            "progress": 50,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extFooter1_bg.jpg",
+            "bgColor": "#262626",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.4,
+            "overlayColor": "#000",
+            "showLogo": true,
+            "showTitle": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/img-extfooter1.png"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "MOBIRISE",
+          "list": "<ul><li><a href=\"\">Bootstrap 4</a></li><li><a href=\"\">Responsive</a></li><li><a href=\"\">Web Fonts</a></li><li><a href=\"\">Unlimited Sites</a></li><li><a href=\"\">Google</a></li><li><a href=\"\">Node</a></li></ul>"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<form>\n  <p>Geben Sie Ihre Zahlungsweise an:</p>\n  <fieldset>\n    <input type=\"radio\" id=\"mc\" name=\"Zahlmethode\" value=\"Mastercard\">\n    <label for=\"mc\"> Mastercard</label><br> \n    <input type=\"radio\" id=\"vi\" name=\"Zahlmethode\" value=\"Visa\">\n    <label for=\"vi\"> Visa</label><br> \n    <input type=\"radio\" id=\"ae\" name=\"Zahlmethode\" value=\"AmericanExpress\">\n    <label for=\"ae\"> American Express</label> \n  </fieldset>\n</form>",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_anchor": "custom-html-15"
+        }
+      ]
+    },
+    "Professionelle Fensterreinigung": {
+      "settings": {
+        "main": true,
+        "title": "Professionelle Fensterreinigung",
+        "meta_descr": "Es ist Frühling. Zeit für saubere Fenster. Jetzt kostenlos Offerten von Firmen aus Ihrer Region erhalten.",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);\n@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);\n.btn {\n\tfont-family: 'Montserrat', sans-serif;\n\tfont-size: 14px;\n}\n.mbr-section-title {\n\ttext-align: center;\n}\n.mbr-section-lead {\n\tfont-family: 'Noto Sans', sans-serif;\n\tfont-size: 20px;\n\ttext-align: center;\n}\n.mbr-section-title SPAN {\n\tfont-size: 32px;\n}\n@media(max-width: 768px) {\n   .mbr-section-title span {\n    font-size: 0.6em !important;\n  }\n}",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/fensterreinigung-2000x1319.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": "0.4"
+          },
+          "title": "<span style=\"font-size: 4.39rem; line-height: 1.1;\">Pr\u001b\u001bofessionelle Fe\u001bnsterreinigug</span><br>",
+          "text": "Jetzt Fensterreinigung anfragen und kostenlos drei Offerten von Firmen aus&nbsp;Ihrer Region<i> </i>erhalten.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"Window_Cleaning_main#form1-t\" data-toolbar=\"-mbrBtnMove\">Offerten erhalten</a>   ",
+          "_customHTML": "<section class=\"mbr-section mbr-section-hero mbr-section-full\" style=\"background-image: url(@PROJECT_PATH@/assets/images/fensterreinigung-2000x1319.jpg);\">\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.4; background-color: rgb(0, 0, 0);\"></div>\n\n    <div class=\"mbr-table-cell\">\n\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"mbr-section col-md-10 col-md-offset-1 text-xs-center\">\n\n                    <h1 class=\"mbr-section-title display-1 mbr-editable-content\" code-editable-id=\"22\"><span style=\"font-size: 4.39rem; line-height: 1.1;\">Pr\u001b\u001bofessionelle Fe\u001bnsterreinigug</span><br></h1>\n                    <p class=\"mbr-section-lead lead mbr-editable-content\" code-editable-id=\"23\">Jetzt Fensterreinigung anfragen und kostenlos drei Offerten von Firmen aus&nbsp;Ihrer Region<em> </em>erhalten.</p>\n                    <div class=\"mbr-section-btn\"><a class=\"btn btn-lg btn-primary mbr-editable-button\" href=\"Window_Cleaning_main#form1-t\" code-editable-id=\"24\">Offerten erhalten</a>   </div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n    \n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customTemplate": true,
+          "_anchor": "header1-0"
+        },
+        {
+          "_inherit": "features4",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".card-subtitle": {
+              "color": "#bcbcbc"
+            },
+            ".iconbox": {
+              "background-color": "@primaryColor",
+              "border-color": "@primaryColor"
+            }
+          },
+          "_name": "features7",
+          "_customCSS": "",
+          "_anchor": "features7-1c",
+          "_params": {
+            "iconsBgColor": "@primaryColor",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": 4,
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": false,
+            "showButtons": false
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "edit",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff"
+            }
+          },
+          "title1": "<span style=\"font-weight: normal;\">1. &nbsp;Schritt</span><br>Anfrage ausfüllen",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "file",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff"
+            }
+          },
+          "title2": "<span style=\"font-weight: normal;\">2. Schritt</span><br>Offerten per E-Mail erhalten",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "cursor-click",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff"
+            }
+          },
+          "title3": "<span style=\"font-weight: normal;\">3. Schritt</span><br>Favorit auswählen und buchen",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "sun",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff"
+            }
+          },
+          "title4": "<span style=\"font-weight: normal;\">4. Schritt</span><br>Saubere Fenster geniessen!",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
+            "labelsColor": "#232323",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Jetzt Offerten erhalten",
+          "subtitle": "Geben Sie uns alle wichtigen Informationen zu Auftragsort, Wunschdatum und alle Details zu Ihren Fenstern.",
+          "form": {
+            "action": "marie@movu.ch",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>",
+          "_customHTML": "<section class=\"mbr-section\" style=\"background-color: rgb(255, 255, 255); padding-top: 100px; padding-bottom: 30px;\">\n    \n    <div class=\"mbr-section mbr-section__container mbr-section__container--middle\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 text-xs-center\">\n                    <h3 class=\"mbr-section-title display-2 mbr-editable-content\" style=\"font-size: 48px;\" code-editable-id=\"16\">Jetzt kostenlos Offerten erhalten</h3>\n                    <small class=\"mbr-section-subtitle mbr-editable-content\" style=\"color: rgb(140, 140, 140);\" code-editable-id=\"17\">Geben Sie uns alle wichtigen Informationen zu Auftragsort, Wunschdatum und Ihren Fenstern.<br>Erhalten Sie ausserdem vom 3. bis 9. April 20% Rabatt auf Ihr Angebot.<br>\u001b\u001b\u001b</small>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=\"mbr-section mbr-section-nopadding\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-lg-10 col-lg-offset-1\" data-form-type=\"formoid\">\n\n\n                    <div data-form-alert=\"true\">\n                        <div hidden=\"\" data-form-alert-success=\"true\" class=\"alert alert-form alert-success text-xs-center\">Vielen Dank für Ihre Anfrage. Wir melden uns in Kürze bei Ihnen.</div>\n                    </div>\n\n\n                    <form action=\"https://mobirise.com/\" method=\"post\" data-form-title=\"Jetzt Offerten erhalten\">\n\n                        <input type=\"hidden\" value=\"uJ1I4Iy0sGbL0jgey97cQwqtthnvkE3vIbOn2TUHy8Kwn2oD5pPOIsZ/IwOeVpKf9GUZx+RNwkE4zIy3z0YeZTCnN89H21rdpOEPFZ5ukibIv0cLMUVE3lKKXUeAi4Z7\" data-form-email=\"true\">\n\n                        <div class=\"row row-sm-offset\">\n\n                            <div class=\"col-xs-12 col-md-4\">\n                                <div class=\"form-group\">\n                                    <label class=\"form-control-label\" for=\"form1-t-name\">Name<span class=\"form-asterisk\">*</span></label>\n                                    <input type=\"text\" class=\"form-control\" name=\"name\" required=\"\" data-form-field=\"Name\" id=\"form1-t-name\">\n                                </div>\n                            </div>\n\n                            <div class=\"col-xs-12 col-md-4\">\n                                <div class=\"form-group\">\n                                    <label class=\"form-control-label\" for=\"form1-t-email\">E-Mail<span class=\"form-asterisk\">*</span></label>\n                                    <input type=\"email\" class=\"form-control\" name=\"email\" required=\"\" data-form-field=\"Email\" id=\"form1-t-email\">\n                                </div>\n                            </div>\n\n                            <div class=\"col-xs-12 col-md-4\">\n                                <div class=\"form-group\">\n                                    <label class=\"form-control-label\" for=\"form1-t-phone\">Telefonnummer</label>\n                                    <input type=\"tel\" class=\"form-control\" name=\"phone\" data-form-field=\"Phone\" id=\"form1-t-phone\">\n                                </div>\n                            </div>\n\n                        </div>\n                        \n                                                <div class=\"row row-sm-offset\">\n\n                            <div class=\"col-xs-12 col-md-4\">\n                                <div class=\"form-group\">\n                                    <label class=\"form-control-label\" for=\"form1-t-name\">Strasse und Hausnummer<span class=\"form-asterisk\">*</span></label>\n                                    <input type=\"text\" class=\"form-control\" name=\"name\" required=\"\" data-form-field=\"Name\" id=\"form1-t-name\">\n                                </div>\n                            </div>\n\n                            <div class=\"col-xs-12 col-md-4\">\n                                <div class=\"form-group\">\n                                    <label class=\"form-control-label\" for=\"form1-t-email\">Postleitzahl<span class=\"form-asterisk\">*</span></label>\n                                    <input type=\"tel\" class=\"form-control\" name=\"phone\" data-form-field=\"Phone\" id=\"form1-t-phone\">\n                                </div>\n                            </div>\n<div class=\"col-xs-12 col-md-4\">\n                                <div class=\"form-group\">\n                                    <label class=\"form-control-label\" for=\"form1-t-email\">Stadt<span class=\"form-asterisk\">*</span></label>\n                                    <input type=\"tel\" class=\"form-control\" name=\"phone\" data-form-field=\"Phone\" id=\"form1-t-phone\">\n                                </div>\n                            </div>\n                        </div>\n                        \n                           \n                    <div class=\"row row-sm-offset\">\n<div class=\"col-xs-12 col-md-4\">\n                                <div class=\"form-group\">\n                                    <label class=\"form-control-label\" for=\"form1-t-email\">Reinigungsdatum<span class=\"form-asterisk\">*</span></label>\n                                    <input type=\"tel\" class=\"form-control\" name=\"phone\" data-form-field=\"Phone\" id=\"form1-t-phone\">\n                                </div>\n                            </div>\n                        </div>\n\n                <br>\n                                                      \n                        \n<div class=\"form-group\">\n    <p>Anzahl der Zimmer</p>\n                    \n  <fieldset>\n    <input type=\"radio\" id=\"ae\" name=\"Zimmer\" value=\"bis 1,5\">\n    <label for=\"ae\"> 1 - 1,5 Zimmer </label>\n    <input type=\"radio\" id=\"ae\" name=\"Zimmer\" value=\"2-2,5\">\n    <label for=\"ae\"> 2 - 2,5 Zimmer</label><br>\n    <input type=\"radio\" id=\"vi\" name=\"Zimmer\" value=\"3-3,5\">\n    <label for=\"vi\"> 3 - 3,5 Zimmer</label>\n    <input type=\"radio\" id=\"ae\" name=\"Zimmer\" value=\"4-4,5\">\n    <label for=\"ae\"> 4 - 4,5 Zimmer</label><br> \n    <input type=\"radio\" id=\"ae\" name=\"Zimmer\" value=\"3-3,5\">\n    <label for=\"ae\"> 5 - 5,5 Zimmer</label> \n    <input type=\"radio\" id=\"ae\" name=\"Zimmer\" value=\"mehr als 6 Zimmer\">\n    <label for=\"ae\"> &gt; 6 Zimmer</label><br> \n  </fieldset>\n    \n      <br>\n                    \n         <div class=\"row row-sm-offset\">                  \t\n\t\t<label>Art der Fenster:\n\t\t\t<select name=\"top5\">\n\t\t\t\t<option>1-türiges Fenster</option>\n\t\t\t\t<option>2-türiges Fenster</option>\n\t\t\t\t<option>3-türiges Fenster</option>\n\t\t\t\t<option>Fenstertür</option>\n\t\t\t\t<option>Fensterwand</option>\n\t\t\t</select>\n\t\t</label>\n    \n                      <label>Anzahl:\n\t\t\t<select name=\"top5\">\n\t\t\t\t<option>0</option>\n                <option>1</option>\n\t\t\t\t<option>2</option>\n\t\t\t\t<option>3</option>\n\t\t\t\t<option>4</option>\n\t\t\t\t<option>5</option>\n                <option>6</option>\n                <option>7</option>\n                <option>8</option>\n                <option>8</option>\n                <option>10</option>\n                <option>11</option>\n                <option>12</option>\n                <option>13</option>\n                <option>14</option>\n                <option>15</option>\n                <option>16</option>\n                <option>17</option>\n                <option>18</option>\n                <option>19</option>\n                <option>20+</option>   \n\t\t\t</select>\n\t\t</label>\n\n    \n                               <div class=\"row row-sm-offset\">  \n                         \t<label>Art der Fenster:\n\t\t\t<select name=\"top5\">\n\t\t\t\t<option>1-türiges Fenster</option>\n\t\t\t\t<option>2-türiges Fenster</option>\n\t\t\t\t<option>3-türiges Fenster</option>\n\t\t\t\t<option>Fenstertür</option>\n\t\t\t\t<option>Fensterwand</option>\n\t\t\t</select>\n\t\t</label>\n                                   \n                        <label>Anzahl:\n\t\t\t<select name=\"top5\">\n\t\t\t\t<option>0</option>\n                <option>1</option>\n\t\t\t\t<option>2</option>\n\t\t\t\t<option>3</option>\n\t\t\t\t<option>4</option>\n\t\t\t\t<option>5</option>\n                <option>6</option>\n                <option>7</option>\n                <option>8</option>\n                <option>8</option>\n                <option>10</option>\n                <option>11</option>\n                <option>12</option>\n                <option>13</option>\n                <option>14</option>\n                <option>15</option>\n                <option>16</option>\n                <option>17</option>\n                <option>18</option>\n                <option>19</option>\n                <option>20+</option>   \n\t\t\t</select>\n\t\t</label>\n                                                    \n <div class=\"row row-sm-offset\">                  \t\n\t\t<label>Art der Fenster:\n\t\t\t<select name=\"top5\">\n\t\t\t\t<option>1-türiges Fenster</option>\n\t\t\t\t<option>2-türiges Fenster</option>\n\t\t\t\t<option>3-türiges Fenster</option>\n\t\t\t\t<option>Fenstertür</option>\n\t\t\t\t<option>Fensterwand</option>\n\t\t\t</select>\n\t\t</label>\n    \n                      <label>Anzahl:\n\t\t\t<select name=\"top5\">\n\t\t\t\t<option>0</option>\n                <option>1</option>\n\t\t\t\t<option>2</option>\n\t\t\t\t<option>3</option>\n\t\t\t\t<option>4</option>\n\t\t\t\t<option>5</option>\n                <option>6</option>\n                <option>7</option>\n                <option>8</option>\n                <option>8</option>\n                <option>10</option>\n                <option>11</option>\n                <option>12</option>\n                <option>13</option>\n                <option>14</option>\n                <option>15</option>\n                <option>16</option>\n                <option>17</option>\n                <option>18</option>\n                <option>19</option>\n                <option>20+</option>   \n\t\t\t</select>\n\t\t</label>\n\n      <div class=\"row row-sm-offset\">                  \t\n\t\t<label>Art der Fenster:\n\t\t\t<select name=\"top5\">\n\t\t\t\t<option>1-türiges Fenster</option>\n\t\t\t\t<option>2-türiges Fenster</option>\n\t\t\t\t<option>3-türiges Fenster</option>\n\t\t\t\t<option>Fenstertür</option>\n\t\t\t\t<option>Fensterwand</option>\n\t\t\t</select>\n\t\t</label>\n    \n                      <label>Anzahl:\n\t\t\t<select name=\"top5\">\n                <option>0</option>\n\t\t\t\t<option>1</option>\n\t\t\t\t<option>2</option>\n\t\t\t\t<option>3</option>\n\t\t\t\t<option>4</option>\n\t\t\t\t<option>5</option>\n                <option>6</option>\n                <option>7</option>\n                <option>8</option>\n                <option>8</option>\n                <option>10</option>\n                <option>11</option>\n                <option>12</option>\n                <option>13</option>\n                <option>14</option>\n                <option>15</option>\n                <option>16</option>\n                <option>17</option>\n                <option>18</option>\n                <option>19</option>\n                <option>20+</option>   \n\t\t\t</select>\n\t\t</label>\n\n           <div class=\"row row-sm-offset\">                  \t\n\t\t<label>Art der Fenster:\n\t\t\t<select name=\"top5\">\n\t\t\t\t<option>1-türiges Fenster</option>\n\t\t\t\t<option>2-türiges Fenster</option>\n\t\t\t\t<option>3-türiges Fenster</option>\n\t\t\t\t<option>Fenstertür</option>\n\t\t\t\t<option>Fensterwand</option>\n\t\t\t</select>\n\t\t</label>\n    \n                      <label>Anzahl:\n\t\t\t<select name=\"top5\">\n                <option>0</option>\n\t\t\t\t<option>1</option>\n\t\t\t\t<option>2</option>\n\t\t\t\t<option>3</option>\n\t\t\t\t<option>4</option>\n\t\t\t\t<option>5</option>\n                <option>6</option>\n                <option>7</option>\n                <option>8</option>\n                <option>8</option>\n                <option>10</option>\n                <option>11</option>\n                <option>12</option>\n                <option>13</option>\n                <option>14</option>\n                <option>15</option>\n                <option>16</option>\n                <option>17</option>\n                <option>18</option>\n                <option>19</option>\n                <option>20+</option>   \n\t\t\t</select>\n\t\t</label>\n              </div>  \n </div>\n      </div>\n                                   <br>\n                 <div><button type=\"submit\" action=\"mailto:marie@movu.ch\" method=\"post\" class=\"btn btn-primary mbr-editable-button\" code-editable-id=\"18\">Offerten erhalten</button></div></div></div></div></form></div></div></div></div></section>\n\n",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "@import url(undefined);\n@font-face {\n\nfont-family: 'Montserrat', sans-serif;\n\nfont-style: normal;\n\nfont-weight: 400;\n\nsrc: local('Montserrat'), local('Montserrat'), url(http://fonts.googleapis.com/css?family=Montserrat) format('woff');\n\n}\n\n.form-all, .form-all label, .form-all input, .form-all select, .form-all button, .form-all textarea{\n\nfont-family: 'Montserrat', sans-serif;\n\nfont-size:16px;\n\nfont-weight: normal;\n\n}",
+          "_customTemplate": true,
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          },
+          "_anchor": "form1-t"
+        },
+        {
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extTestimonials5",
+          "_customCSS": "",
+          "_params": {
+            "autoplay": false,
+            "timeout": 5,
+            "paddingTop": 2,
+            "paddingBottom": 1,
+            "slides": [
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/swisscom-logo-595x245.png",
+                    "link": "https://mobirise.com",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                }
+              },
+              {
+                "active": true,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/ubs-logo-800x293.png",
+                    "link": "",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/helvetia-versicherung-logo-2000x469.png",
+                    "link": "",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/immobilienscout24-logo-2000x994.png",
+                    "link": "",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/logo-1200x230.png",
+                    "link": "",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                }
+              }
+            ],
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/flight-mountains-sky-flying.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "showTitle": false,
+            "showSubtitle": true,
+            "showBullets": true,
+            "visibleSlides": "5",
+            "showArrows": false
+          },
+          "_anchor": "extTestimonials5-1j",
+          "title": "OUR CLIENTS",
+          "subtitle": "Unsere Partner"
+        },
+        {
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extMenu1",
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": false,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#3d8eb9",
+            "socialButtons": "1",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "fa",
+              "link": "https://mobirise.com",
+              "name": "phone",
+              "size": 0,
+              "color": "#ffffff",
+              "family": "FontAwesome"
+            }
+          },
+          "phone": "+1234567890",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "name": "mail",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ffffff",
+              "family": "linecons"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "",
+              "name": "facebook",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ffffff",
+              "family": "socicon"
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "",
+              "name": "twitter",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ffffff",
+              "family": "socicon"
+            }
+          },
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "",
+              "name": "instagram",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ffffff",
+              "family": "socicon"
+            }
+          },
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "",
+              "name": "behance",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ffffff",
+              "family": "socicon"
+            }
+          },
+          "media7": {
+            "iconFont": {
+              "active": true,
+              "class": "",
+              "name": "pinterest",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ffffff",
+              "family": "socicon"
+            }
+          },
+          "media8": {
+            "iconFont": {
+              "active": true,
+              "class": "",
+              "name": "skype",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ffffff",
+              "family": "socicon"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/movu-logo-white-071f5234fbb8efb3c2c2c2af7c3622bc.svg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "_customHTML": "<section class=\"extMenu1\">\n    <nav class=\"navbar navbar-dropdown\">\n        <div class=\"container-fluid\">\n    \n            <div class=\"mbr-table\">\n                <div class=\"mbr-table-cell\">\n\n                    <div class=\"navbar-brand\">\n                        <a href=\"https://www.movu.ch\" class=\"navbar-logo\"><img src=\"@PROJECT_PATH@/assets/images/movu-logo-white-071f5234fbb8efb3c2c2c2af7c3622bc.svg\" alt=\"Mobirise\"></a>\n                        \n                    </div>\n                    </div>\n\n\n              \n\n                    <ul class=\"nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm\" id=\"exCollapsingNavbar\"><li class=\"nav-item\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"https://www.movu.ch/\" code-editable-id=\"13\"></a></li></ul>\n                    <button hidden=\"\" class=\"navbar-toggler navbar-close\" type=\"button\" data-toggle=\"collapse\" data-target=\"#exCollapsingNavbar\">\n                        <div class=\"close-icon\"></div>\n                    </button>\n                </div>\n            </div>\n       </nav></section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": ".hide-buttons .nav-btn {\n\tdisplay: none !important;\n}\n.navbar-caption {\n\tcolor: #ffffff;\n}\n.navbar-toggler {\n\tcolor: #ffffff;\n}\n.close-icon::before, .close-icon::after {\n\tbackground-color: #ffffff;\n}\n.link, .dropdown-item {\n\tcolor: #ffffff;\n}\n.link {\n\tfont-size: 0.75rem;\n}\n.dropdown-item, .nav-dropdown-sm .link {\n\tfont-size: 0.812rem;\n}\n.link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus {\n\tcolor: #00b778;\n}\n.link[aria-expanded=\"true\"], .dropdown-menu {\n\tbackground: #307193;\n}\n.nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover {\n\tbackground: #3985ad!important;\n}\n.navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu {\n\tbackground: #3d8eb9;\n}\n.bg-color.transparent .link {\n\tcolor: #ffffff;\n\ttransition: none;\n}\n.bg-color.transparent.opened .link {\n\ttransition: color .2s ease-in-out;\n}\n.bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus {\n\tcolor: #00b778;\n}\n.link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"] {\n\tcolor: #00b778!important;\n}\n.innerEmail:hover, .innerPhone:hover {\n\tcolor: #00b778;\n}\n",
+          "_customTemplate": true,
+          "_anchor": "extMenu1-z"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#5b5b5b",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/movu-logo-new-2b2aa05b41859269f4d2055e40996c87.svg",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "",
+          "text2": "<strong>Kontakt</strong><br><strong><br></strong><br>MOVU AG<br><br><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Universitätsstrasse 63</span><br><span style=\"font-size: 0.875rem; line-height: 1.5;\"><br></span><br>8006 Zürich",
+          "text3": "<strong>Links</strong><br><a href=\"https://www.movu.ch/de/\" target=\"_blank\" class=\"text-white\">MOVU.ch</a><br><a href=\"https://www.movu.ch/ratgeber/\" target=\"_blank\" class=\"text-white\">Umzugsratgeber</a><br><br>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_customCSS": "STRONG {\n\tcolor: #ffffff;\n}\n",
+          "_customHTML": "<section class=\"mbr-section mbr-section-md-padding mbr-footer footer1\" style=\"background-color: rgb(91, 91, 91); padding-top: 60px; padding-bottom: 60px;\">\n    \n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"mbr-footer-content col-xs-10 col-md-3\">\n                <p class=\"mbr-editable-content\" code-editable-id=\"16\"><strong>Kontakt</strong><br>MOVU AG<br><span style=\"font-size: 0.875rem; line-height: 0;\">Universitätsstrasse 63</span><br>8006 Zürich</p>\n            </div>\n            <div class=\"mbr-footer-content col-xs-12 col-md-3\">\n                <p class=\"mbr-editable-content\" code-editable-id=\"17\"><strong>Links</strong><br><a href=\"https://www.movu.ch/de/\" target=\"_blank\" class=\"text-white\">MOVU.ch</a><br><a href=\"https://www.movu.ch/ratgeber/\" target=\"_blank\" class=\"text-white\">Umzugsratgeber</a><br><br></p>\n            </div>\n          <div class=\"row\">\n     \n        \n                \n            <div><a class=\"btn btn-social mbr-editable-button\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/Movu_CH\" code-editable-id=\"18\"><i class=\"socicon socicon-twitter\"></i></a> <a class=\"btn btn-social mbr-editable-button\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/movu.ch/\" code-editable-id=\"19\"><i class=\"socicon socicon-facebook\"></i></a> <a class=\"btn btn-social mbr-editable-button\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/+MovuAGZ%C3%BCrich\" code-editable-id=\"20\"><i class=\"socicon socicon-googleplus\"></i></a><a class=\"btn btn-social mbr-editable-button\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\" code-editable-id=\"21\"><i class=\"socicon socicon-youtube\"></i></a>\n</div></div></div></div></section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customTemplate": true,
+          "_anchor": "contacts1-12"
+        }
+      ]
+    }
+  }
+}
