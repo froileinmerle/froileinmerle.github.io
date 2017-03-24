@@ -1,0 +1,94 @@
+#form-d input#send {
+	padding: 1em;
+	background: #00b778;
+	color: white;
+	font-size: 1.25em;
+}
+.rabatt {
+	color: #00b778;
+}
+#thx {
+	margin-top: 150px;
+}
+#thx a {
+	color: #00b778;
+	
+}
+#form-d {
+	margin-bottom: 5em;	
+}
+#form-d section {
+	margin: 4em 0;
+}
+#form-d h5 {
+	margin-bottom: 1em;
+}
+#form-d ul li {
+margin: 0 0 1em;
+padding: 0;
+}
+#form-d .window-nr label {
+	width: 150px;
+}
+#form-d ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#form-d .container-d {
+			display: -webkit-flex;
+			display: -moz-flex;
+			display: -ms-flex;
+			display: flex;
+			-webkit-flex-flow: row wrap;
+			-moz-flex-flow: row wrap;
+			-ms-flex-direction: row;
+			-ms-flex-wrap: wrap;
+			-ms-flex-flow: row wrap;
+			flex-flow: row wrap;
+			-webkit-justify-content: space-between;
+			-moz-justify-content: space-between;
+			-ms-flex-pack:$space-between;
+			-ms-justify-content:space-between;
+			justify-content:space-between;
+}
+
+#form-d .container-d.contact-d div {
+	-webkit-flex:0 1 100%;
+	-moz-flex:0 1 100%;
+	-ms-flex:0 1 100%;
+	flex:0 1 100%;
+	margin-bottom: 1em;
+}
+
+#form-d .container-d.rooms-d div {
+	-webkit-flex:0 1 15%;
+	-moz-flex:0 1 15%;
+	-ms-flex:0 1 15%;
+	flex:0 1 15%;
+	display: inline-block !important;
+	width: 10%;
+	margin-bottom: 1em;
+}
+#form-d .container-d.contact-d div >* {
+	display: block;
+	margin-bottom: .5em;
+}
+#form-d .container-d.contact-d div input {
+	padding: 1em;
+	background: rgb(240,240,240);
+	width: 90%;
+}
+
+@media (min-width: 767px) {
+	#form-d .container-d.contact-d div {
+		-webkit-flex:0 1 32%;
+		-moz-flex:0 1 32%;
+		-ms-flex:0 1 32%;
+		flex:0 1 32%;
+		margin-bottom: 1em;
+	}
+	#form-d .container-d.contact-d div input {
+		width: 80%;
+	}
+}
